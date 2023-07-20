@@ -7,3 +7,50 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.container {
+  padding: 0px 50px;
+}
+/* Navigation Area Style Here */
+.navbar {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.navbar > li {
+  list-style: none;
+}
+.navbar > li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+}
+/* Bannar Area Style Here */
+.bannar {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+.text-area {
+  width: 50%;
+  padding-right: 200px;
+}
+.text-area > p {
+  font-size: 10px;
+  margin: 8px 0px;
+}
+.image-area {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.image-area > img {
+  width: 220px;
+}
+.read-button {
+  background-color: orange;
+  border: none;
+  padding: 6px 10px;
+  font-size: 8px;
+  color: white;
+  border-radius: 200px;
+}
